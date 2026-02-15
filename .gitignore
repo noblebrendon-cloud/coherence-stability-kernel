@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+data/
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+src/kernel_private.py
+*.log
+.venv/
+venv/
