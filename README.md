@@ -63,6 +63,10 @@ coherence-stability-kernel/
 ├── LICENSE
 └── .gitignore
 
+---
+
+## Failure Channels (Φ₁–Φ₅)
+
 | Signal | Measures                                 | Source                        |
 | ------ | ---------------------------------------- | ----------------------------- |
 | Φ₁     | Constraint violation accumulation        | `ConstraintViolation` events  |
@@ -70,6 +74,11 @@ coherence-stability-kernel/
 | Φ₃     | Tool integration instability             | Circuit breaker OPEN ratio    |
 | Φ₄     | Retry storm pressure                     | Retries / requests ratio      |
 | Φ₅     | Recovery degradation                     | Time since last breaker reset |
+
+---
+
+## Safe Disclosure Mode
+
 
 | Regime   | Φ_risk    | Enforcement                               |
 | -------- | --------- | ----------------------------------------- |
