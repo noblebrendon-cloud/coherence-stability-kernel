@@ -26,11 +26,23 @@ Designed for:
 ## Quickstart
 
 ```bash
+# Clone
 git clone https://github.com/YOUR_ORG/coherence-stability-kernel.git
 cd coherence-stability-kernel
+
+# Run tests
 python -m unittest discover -s tests -v
+
+# Run simulation
 python sim/sim_stability.py
 # Output: data/sim_output/stability.csv
+
+## Repository Structure
+```
+
+## Repository Structure
+
+```
 coherence-stability-kernel/
 ├── src/
 │   ├── __init__.py
